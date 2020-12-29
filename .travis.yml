@@ -1,0 +1,19 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : minipass-pipeline
+# Source Repo         : https://github.com/Jam3/load-bmfont
+# Travis Job Link     : https://travis-ci.com/github/asellappen/load-bmfont/
+# Created travis.yml  : No
+# Maintainer          : Arumugam N S <asellappen@yahoo.com>/Priya Seth<sethp@us.ibm.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
+sudo: false
+language: node_js
+arch:
+  - amd64
+  - ppc64le
+node_js:
+  - '14'
+  - '15'

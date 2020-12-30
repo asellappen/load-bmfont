@@ -14,6 +14,8 @@ language: node_js
 arch:
   - amd64
   - ppc64le
+before_install:
+  - npm install selenium-webdriver
 node_js:
   - '14'
   - '15'

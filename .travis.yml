@@ -14,7 +14,7 @@ language: node_js
 env:
   - export DISPLAY=:0.0
 arch: ppc64le
-addons:
+ addons:
   apt:
     packages:
       - xauth

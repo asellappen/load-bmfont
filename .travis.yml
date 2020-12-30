@@ -16,7 +16,8 @@ dist: xenial
 services:
   - xvfb
 before_install:
-  - export DISPLAY=:0.0
+  -  sudo apt-get install xauth xvfb
+  -  export DISPLAY=:0.0
   -  sudo apt-get  install firefox
   -  npm install -g browserify
 node_js:

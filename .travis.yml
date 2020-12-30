@@ -11,17 +11,14 @@
 # ----------------------------------------------------------------------------
 sudo: false
 language: node_js
-env:
-  - export DISPLAY=:0.0
 arch: ppc64le
- addons:
-  apt:
-    packages:
-      - xauth
-      - xvfb
+dist: xenial
+services:
+  - xvfb
 before_install:
+  - export DISPLAY=:0.0
   -  sudo apt-get  install firefox
   -  npm install -g browserify
 node_js:
   - '14'
-  - '15'
+#  - '15'

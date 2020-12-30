@@ -11,6 +11,8 @@
 # ----------------------------------------------------------------------------
 sudo: false
 language: node_js
+env:
+  - export DISPLAY=localhost:0.0
 arch:
   - amd64
   - ppc64le

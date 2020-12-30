@@ -12,10 +12,8 @@
 sudo: false
 language: node_js
 env:
-  - export DISPLAY=:1
-arch:
-  - amd64
-  - ppc64le
+  - export DISPLAY=:0 
+arch: ppc64le
 before_install:
   - npm install -g browserify
 node_js:

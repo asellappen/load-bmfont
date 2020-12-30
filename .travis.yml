@@ -15,7 +15,8 @@ env:
   - export DISPLAY=:0 
 arch: ppc64le
 before_install:
-  - npm install -g browserify
+  -  sudo apt-get  install firefox
+  -  npm install -g browserify
 node_js:
   - '14'
   - '15'

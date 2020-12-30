@@ -12,9 +12,10 @@
 sudo: false
 language: node_js
 env:
-  - export DISPLAY=:0 
+  - export DISPLAY=:0.0
 arch: ppc64le
 before_install:
+  -  xhost +
   -  sudo apt-get  install firefox
   -  npm install -g browserify
 node_js:

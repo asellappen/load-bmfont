@@ -3,7 +3,7 @@
 # Package             : load-bmfont
 # Source Repo         : https://github.com/Jam3/load-bmfont
 # Travis Job Link     : https://travis-ci.com/github/asellappen/load-bmfont/
-# Created travis.yml  : No
+# Created travis.yml  : Yes
 # Maintainer          : Arumugam N S <asellappen@yahoo.com>/Priya Seth<sethp@us.ibm.com>
 #
 # Script License      : Apache License, Version 2 or later
@@ -12,7 +12,7 @@
 sudo: false
 language: node_js
 env:
-  - export DISPLAY=localhost:0.0
+  - export DISPLAY=:1
 arch:
   - amd64
   - ppc64le
